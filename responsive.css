@@ -116,6 +116,11 @@
     margin-top: 5px;
    }
    .snippet_artcile{
-     font-size: 12px;
+    font-size: 14px;
+    font-style: italic;  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
    }
 }
